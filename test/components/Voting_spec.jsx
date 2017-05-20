@@ -6,7 +6,7 @@ import {
   Simulate
 } from 'react-addons-test-utils';
 import {List} from 'immutable';
-import Voting from '../../src/components/Vote';
+import Voting from '../../src/components/Voting';
 import {expect} from 'chai';
 
 describe('Voting', () => {
@@ -122,5 +122,5 @@ describe('Voting', () => {
     firstButton = scryRenderedDOMComponentsWithTag(component, 'button')[0];
     expect(firstButton.textContent).to.equal('Sunshine');
   });
-  
+
 });
